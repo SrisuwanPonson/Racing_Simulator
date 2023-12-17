@@ -60,6 +60,8 @@ namespace Racing_Simulation
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.labelStatus = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.labelMaxDegree = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.frame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.car)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,7 +73,7 @@ namespace Racing_Simulation
             this.frame.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.frame.Location = new System.Drawing.Point(12, 34);
             this.frame.Name = "frame";
-            this.frame.Size = new System.Drawing.Size(401, 208);
+            this.frame.Size = new System.Drawing.Size(307, 368);
             this.frame.TabIndex = 1;
             this.frame.TabStop = false;
             this.frame.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
@@ -139,7 +141,7 @@ namespace Racing_Simulation
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(362, 45);
+            this.label10.Location = new System.Drawing.Point(267, 44);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(16, 13);
             this.label10.TabIndex = 16;
@@ -148,7 +150,7 @@ namespace Racing_Simulation
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(384, 45);
+            this.label11.Location = new System.Drawing.Point(289, 44);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(15, 13);
             this.label11.TabIndex = 15;
@@ -157,7 +159,7 @@ namespace Racing_Simulation
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(307, 45);
+            this.label12.Location = new System.Drawing.Point(212, 44);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(52, 13);
             this.label12.TabIndex = 14;
@@ -263,6 +265,8 @@ namespace Racing_Simulation
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.labelMaxDegree);
+            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.labelLocationY);
             this.groupBox1.Controls.Add(this.label6);
@@ -278,7 +282,7 @@ namespace Racing_Simulation
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.belVel);
-            this.groupBox1.Location = new System.Drawing.Point(12, 267);
+            this.groupBox1.Location = new System.Drawing.Point(337, 34);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(401, 183);
             this.groupBox1.TabIndex = 27;
@@ -290,9 +294,9 @@ namespace Racing_Simulation
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(244, 102);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 13);
+            this.label7.Size = new System.Drawing.Size(97, 13);
             this.label7.TabIndex = 29;
-            this.label7.Text = "** average 3 points forward";
+            this.label7.Text = "*** 2 points forward";
             // 
             // label6
             // 
@@ -327,9 +331,9 @@ namespace Racing_Simulation
             this.groupBox2.Controls.Add(this.btnAcc);
             this.groupBox2.Controls.Add(this.btnStop);
             this.groupBox2.Controls.Add(this.btnBrk);
-            this.groupBox2.Location = new System.Drawing.Point(12, 456);
+            this.groupBox2.Location = new System.Drawing.Point(337, 223);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(401, 115);
+            this.groupBox2.Size = new System.Drawing.Size(401, 179);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Manual";
@@ -348,18 +352,36 @@ namespace Racing_Simulation
             this.labelStatus.AutoSize = true;
             this.labelStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.labelStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.labelStatus.Location = new System.Drawing.Point(284, 213);
+            this.labelStatus.Location = new System.Drawing.Point(226, 356);
             this.labelStatus.Name = "labelStatus";
             this.labelStatus.Size = new System.Drawing.Size(86, 20);
             this.labelStatus.TabIndex = 29;
             this.labelStatus.Text = "READY !!";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(185, 126);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(71, 13);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "Max Degree :";
+            // 
+            // labelMaxDegree
+            // 
+            this.labelMaxDegree.AutoSize = true;
+            this.labelMaxDegree.Location = new System.Drawing.Point(273, 126);
+            this.labelMaxDegree.Name = "labelMaxDegree";
+            this.labelMaxDegree.Size = new System.Drawing.Size(16, 13);
+            this.labelMaxDegree.TabIndex = 31;
+            this.labelMaxDegree.Text = "---";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(434, 585);
+            this.ClientSize = new System.Drawing.Size(753, 415);
             this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -411,6 +433,8 @@ namespace Racing_Simulation
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Label labelStatus;
+        private System.Windows.Forms.Label labelMaxDegree;
+        private System.Windows.Forms.Label label13;
     }
 }
 

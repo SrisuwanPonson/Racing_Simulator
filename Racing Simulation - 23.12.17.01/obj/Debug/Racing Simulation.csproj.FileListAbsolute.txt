@@ -1,0 +1,20 @@
+C:\AAS_SDK\Personal Project\Racing Simulation\bin\Debug\Racing Simulation.exe.config
+C:\AAS_SDK\Personal Project\Racing Simulation\bin\Debug\Racing Simulation.exe
+C:\AAS_SDK\Personal Project\Racing Simulation\bin\Debug\Racing Simulation.pdb
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing Simulation.csproj.AssemblyReference.cache
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing_Simulation.Form1.resources
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing_Simulation.Properties.Resources.resources
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing Simulation.csproj.GenerateResource.cache
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing Simulation.csproj.CoreCompileInputs.cache
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing Simulation.exe
+C:\AAS_SDK\Personal Project\Racing Simulation\obj\Debug\Racing Simulation.pdb
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\bin\Debug\Racing Simulation.exe.config
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\bin\Debug\Racing Simulation.exe
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\bin\Debug\Racing Simulation.pdb
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.csproj.AssemblyReference.cache
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing_Simulation.Form1.resources
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing_Simulation.Properties.Resources.resources
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.csproj.GenerateResource.cache
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.csproj.CoreCompileInputs.cache
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.exe
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.pdb

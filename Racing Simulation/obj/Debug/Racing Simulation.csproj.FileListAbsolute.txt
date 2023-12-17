@@ -18,3 +18,4 @@ C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing 
 C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.csproj.CoreCompileInputs.cache
 C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.exe
 C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing Simulation.pdb
+C:\AAS_SDK\Personal Project\Racing_Simulator\Racing Simulation\obj\Debug\Racing_Simulation.Form2.resources
