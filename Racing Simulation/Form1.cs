@@ -14,7 +14,7 @@ namespace Racing_Simulation
 {
     public partial class Form1 : Form
     {
-        public string Revision = "23.12.17.00";
+        public string Revision = "23.12.17.01";
         Vector CarVector, PathVector;
         List<LineTracking> points = null;
         Pen bluePen = new Pen(Color.Blue, 2);
@@ -107,7 +107,7 @@ namespace Racing_Simulation
                     catch (Exception)
                     {
 
-                        labelCarVector.Text = "Error";
+                        //labelCarVector.Text = "Error";
                     }
                     try
                     {
@@ -120,7 +120,7 @@ namespace Racing_Simulation
                     }
                     catch(Exception)
                     {
-                        labelPathVector.Text = "Error";
+                        //labelPathVector.Text = "Error";
                     }
 
                     try
@@ -128,15 +128,15 @@ namespace Racing_Simulation
                         double angle_rads = Vector.GetAngle(PathVector, CarVector);
                         //Vector.ConvertRadiansToDegrees(angle_rads)
                         double temp = Vector.ConvertRadiansToDegrees(angle_rads);
-                        if(temp<4)
+                        if(temp<2.5)
                         {
                             temp = 0;
                             if (VEL < 100)
                             {
-                                VEL = VEL + 10;
+                                VEL = VEL + 9;
                             }
                         }
-                        if (VEL > 3)
+                        if (VEL > 20)
                         {
                             VEL = VEL - 3;
                         }
@@ -144,7 +144,7 @@ namespace Racing_Simulation
                     }
                     catch (Exception)
                     {
-                        labelAngle.Text = "Error";
+                        //labelAngle.Text = "Error";
                         //throw;
                     }
                     
@@ -182,6 +182,7 @@ namespace Racing_Simulation
             {
                 return;
             }
+            VEL = 1;
             timer1.Enabled = true;
             Point P = new Point(0, 0);
             P.X = 30;
